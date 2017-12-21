@@ -1,0 +1,9 @@
+;;extensions to ignore
+*.log
+*.pot
+*.pyc
+
+;;directories to ignore
+.idea/
+goreact/media
+.vscode/
