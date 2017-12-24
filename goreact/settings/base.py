@@ -24,6 +24,7 @@ SECRET_KEY = '6exub=*8=@#v%ctxmul_i=31y1b$c2*x-pern*8&3_ybtr2b3n'
 
 
 ALLOWED_HOSTS = [
+    "192.168.8.101",
     "192.168.8.102",
 ]
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'app.authentication',
+    'app.blog',
 ]
 
 MIDDLEWARE = [
